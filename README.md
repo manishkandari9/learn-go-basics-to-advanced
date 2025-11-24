@@ -18,7 +18,7 @@
     </td>
     <td align="right" width="120">
       <div>
-        <img src="https://profile-counter.glitch.me/manishkandari9/count.svg?" width="100" />
+        <img src="https://profile-counter.glitch.me/manishkandari9/count.svg?" />
       </div>
     </td>
   </tr>
