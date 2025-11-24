@@ -11,10 +11,10 @@
     <td align="left">
       <h2 style="margin-bottom: 4px;">🟦 Learn Go (Golang) – Daily Series</h2>
       <!-- <h4 style="margin-top: 0;">Go Course Notes, Code & Progress</h4> -->
-      <img 
-        src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=Go Course Notes, Code & Progress+%F0%9F%92%BB" 
-        alt="Typing SVG" 
-      />
+     <img
+  src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=Go%20Course%20Notes,%20Code%20%26%20Progress%20%F0%9F%92%BB"
+  alt="Typing SVG"
+/>
     </td>
     <td align="right" width="120">
       <div>
