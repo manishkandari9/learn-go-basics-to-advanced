@@ -2,7 +2,7 @@
   <tr>
      <td align="left" style="display: flex; align-items: center; gap: 10px;">
       <!-- Go Icon PNG -->
-      <img src="https://raw.githubusercontent.com/manishkandari9/learn-go-basics-to-advanced/main/Go.png" width="48" alt="Go Logo">
+      <img src="https://raw.githubusercontent.com/manishkandari9/learn-go-basics-to-advanced/main/Go.png" width="50"  style="border-radius: 50%;"  alt="Go Logo">
     <td align="left">
       <h2 style="margin-bottom: 4px;">🟦 Learn Go (Golang) – Daily Series</h2>
       <h4 style="margin-top: 0;">Go Course Notes, Code & Progress</h4>
