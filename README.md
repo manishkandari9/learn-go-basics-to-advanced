@@ -23,3 +23,228 @@
     </td>
   </tr>
 </table>
+
+<!--Table of index-->
+
+# 📘 Go Language – Complete Mastery Roadmap  
+A fully structured, beginner-to-advanced Go learning series with daily updates.
+
+---
+
+## 🟦 **01. Getting Started with Go**
+- What is Go?
+- Why Go? (Speed, Concurrency, Simplicity)
+- Install Go (Windows / Mac / Linux)
+- VS Code Setup + Extensions
+- GOPATH vs GOROOT Explained
+- Running Go Programs (run/build)
+
+---
+
+## 🟩 **02. Go Fundamentals**
+- Hello World
+- Comments & Formatting (gofmt)
+- Variables (var, short declarations)
+- Constants (iota)
+- Data Types (int, float, string, bool)
+- Type Conversion
+- Operators (Arithmetic, Logical, Comparison)
+
+---
+
+## 🟨 **03. Strings & Formatting**
+- String functions
+- Rune vs Byte  
+- String formatting (fmt.Printf, Sprintf)
+- Multi-line strings
+
+---
+
+## 🟪 **04. Control Flow**
+- if / else
+- switch (value & type)
+- for loops (range, conditions)
+- break, continue
+- defer keyword (important)
+
+---
+
+## 🟥 **05. Functions**
+- Basic functions
+- Named return values
+- Multiple returns
+- Variadic functions
+- Anonymous functions
+- Closures
+- Higher-order functions
+
+---
+
+## 🟫 **06. Packages, Modules & Workspaces**
+- What is a module?
+- go.mod explained
+- Importing packages
+- Creating your own package
+- Multi-module workspace (Go 1.18+)
+
+---
+
+## 🟦 **07. Core Data Structures**
+- Arrays
+- Slices (make, append, capacity)
+- Maps (CRUD)
+- Copying slices & maps
+- Deep vs shallow copy
+
+---
+
+## 🟩 **08. Structs & Methods**
+- Structs basics
+- Embedding (Go’s inheritance)
+- Methods (value & pointer receivers)
+- Custom types
+- JSON Marshalling & Unmarshalling
+
+---
+
+## 🟨 **09. Pointers**
+- Pointer basics
+- Pointer arithmetic (why Go doesn’t allow)
+- Pointer receivers vs value receivers
+
+---
+
+## 🟪 **10. Interfaces (Go’s Polymorphism)**
+- Empty interface (any)
+- Type assertions
+- Type switches
+- Dependency injection pattern
+
+---
+
+## 🟥 **11. Error Handling**
+- error type
+- Custom errors
+- Wrapping errors
+- Panic, Recover
+- Best error handling practices
+
+---
+
+## 🟫 **12. Go Generics (Go 1.18+)**
+- Type parameters
+- Generic functions
+- Generic structs
+- Constraints
+- Real-use cases
+
+---
+
+## 🟦 **13. Concurrency (Go’s Superpower)**
+- What is concurrency?
+- Goroutines
+- Buffered & Unbuffered Channels
+- Channel directions
+- Select statement
+- WaitGroups
+- Mutex & RWMutex
+- Deadlocks & Race Conditions
+
+---
+
+## 🟩 **14. Advanced Concurrency Patterns**
+- Fan-in / Fan-out
+- Worker pools
+- Pipelines
+- Context cancellation
+- Rate limiting
+- Timeouts
+- Sync package
+- Atomic operations
+
+---
+
+## 🟨 **15. File Handling**
+- Read/Write files
+- Create/Delete files
+- Buffer readers
+- Working with JSON/YAML/TOML files
+
+---
+
+## 🟪 **16. Networking in Go**
+- HTTP servers (net/http)
+- HTTP clients
+- Handling requests/responses
+- Middleware patterns
+
+---
+
+## 🟥 **17. Building Real-world APIs**
+- REST API structure
+- Routing (mux, echo, gin)
+- Controllers & services
+- DTOs
+- Validation
+- Error handling patterns
+
+---
+
+## 🟫 **18. Databases in Go**
+- SQL (MySQL, Postgres)
+- Querying databases
+- Prepared statements
+- ORM (GORM)
+- NoSQL (MongoDB driver)
+
+---
+
+## 🟦 **19. Testing in Go**
+- Unit testing (testing package)
+- Benchmarks
+- Table-driven tests
+- Mocking
+- Coverage reports
+
+---
+
+## 🟩 **20. Projects & Real-World Go**
+- To-do CLI tool
+- Weather API
+- REST API with database
+- URL shortener
+- Authentication system (JWT)
+- Concurrency-based projects
+
+---
+
+## 🟨 **21. DevOps + Deployment**
+- Build binaries
+- Dockerizing Go apps
+- Docker multi-stage builds
+- Deploying to Render / Railway / EC2
+- CI/CD basics
+
+---
+
+## 🟪 **22. Tools & Utilities**
+- go vet
+- go fmt
+- go env
+- go build / run / install
+- go test
+- go mod tidy
+
+---
+
+## 🟧 **Appendix**
+- Go coding style guide
+- Best practices
+- Recommended books
+- Official resources
+- Next steps in Go
+
+---
+
+### 🔔 New topics + daily content updates will be added automatically.
+
