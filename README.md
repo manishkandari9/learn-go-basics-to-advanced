@@ -26,8 +26,10 @@
 
 <!--Table of index-->
 
-# 📘 Go Language – Complete Mastery Roadmap  
-A fully structured, beginner-to-advanced Go learning series with daily updates.
+# 📑 Table of Contents — Go Lang Daily Series
+
+A clean, structured learning path from basics to advanced Go programming.
+
 
 ---
 
