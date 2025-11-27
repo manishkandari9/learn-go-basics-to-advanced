@@ -142,7 +142,91 @@ A clean, structured learning path from basics to advanced Go programming.
 
 ---
 
+## 🟦 **13. Concurrency (Go’s Superpower)**<table width="100%">
+- Multi-module workspace (Go 1.18+)
+
+---
+
+## 🟦 **07. Core Data Structures**
+- Arrays
+- Slices (make, append, capacity)
+- Maps (CRUD)
+- Copying slices & maps
+- Deep vs shallow copy
+
+---
+
+## 🟩 **08. Structs & Methods**
+- Structs basics
+- Embedding (Go’s inheritance)
+- Methods (value & pointer receivers)
+- Custom types
+- JSON Marshalling & Unmarshalling
+
+---
+
+## 🟨 **09. Pointers**
+- Pointer basics
+- Pointer arithmetic (why Go doesn’t allow)
+- Pointer receivers vs value receivers
+
+---
+
+## 🟪 **10. Interfaces (Go’s Polymorphism)**
+- Empty interface (any)
+- Type assertions
+- Type switches
+- Dependency injection pattern
+
+---
+
+## 🟥 **11. Error Handling**
+- error type
+- Custom errors
+- Wrapping errors
+- Panic, Recover
+- Best error handling practices
+
+---
+
+## 🟫 **12. Go Generics (Go 1.18+)**
+- Type parameters
+- Generic functions
+- Generic structs
+- Constraints
+- Real-use cases
+
+---
+
 ## 🟦 **13. Concurrency (Go’s Superpower)**
+- What is concurrency?
+- Goroutines
+- Buffered & Unbuffered Channels
+- Channel directions
+- Select statement
+- WaitGroups
+- Mutex & RWMutex
+- Deadlocks & Race Conditions
+
+---
+
+## 🟩 **14. Advanced Concurrency Patterns**
+- Fan-in / Fan-out
+- Worker pools
+- Pipelines
+- Context cancellation
+- Rate limiting
+- Timeouts
+- Sync package
+- Atomic operations
+
+---
+
+## 🟨 **15. File Handling**
+- Read/Write files
+- Create/Delete files
+- Buffer readers
+
 - What is concurrency?
 - Goroutines
 - Buffered & Unbuffered Channels
@@ -343,6 +427,88 @@ Go is the top choice for:
 - Scalable backends  
 
 ---
+🟦 01.1 Install Go (Windows / macOS / Linux)
+
+A complete, beginner-friendly setup guide to install Go correctly on your system.
+
+🖥️ Windows Installation
+
+Download Go MSI Installer from https://go.dev/dl
+
+Run installer (Next → Accept → Install)
+
+Default path:
+C:\Program Files\Go
+
+Verify installation:
+
+go version
+
+
+Ensure PATH contains:
+C:\Program Files\Go\bin
+
+GOPATH (default):
+C:\Users\<YourName>\go
+
+GOROOT:
+C:\Program Files\Go
+
+🍏 macOS Installation
+
+Download .pkg installer from https://go.dev/dl
+
+Open → Continue → Install
+
+Verify Go installation:
+
+go version
+
+
+Add PATH if needed:
+
+export PATH=$PATH:/usr/local/go/bin
+
+
+GOPATH:
+/Users/<yourname>/go
+
+GOROOT:
+/usr/local/go
+
+🐧 Linux Installation (Ubuntu / Debian / Kali)
+
+Download tar.gz file:
+
+wget https://go.dev/dl/go1.xx.x.linux-amd64.tar.gz
+
+
+Remove old version:
+
+sudo rm -rf /usr/local/go
+
+
+Extract new Go:
+
+sudo tar -C /usr/local -xzf go1.xx.x.linux-amd64.tar.gz
+
+
+Add to PATH:
+
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
+source ~/.bashrc
+
+
+Verify:
+
+go version
+
+
+GOPATH:
+/home/<username>/go
+
+GOROOT:
+/usr/local/go
 
 ## 🟩 Ready to Begin?
 
