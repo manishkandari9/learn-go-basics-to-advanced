@@ -427,89 +427,113 @@ Go is the top choice for:
 - Scalable backends  
 
 ---
-🟦 01.1 Install Go (Windows / macOS / Linux)
+# 🟦 Day 2: Install Go (Windows / macOS / Linux)
 
-A complete, beginner-friendly setup guide to install Go correctly on your system.
+A clean and simple guide to set up Go on your system.
+All commands are formatted inside for maximum clarity and style.
 
 🖥️ Windows Installation
+1. Download Go
 
-Download Go MSI Installer from https://go.dev/dl
+Download the official MSI installer from:
+```
+https://go.dev/dl
+```
 
-Run installer (Next → Accept → Install)
+Example file:
+```
+go1.xx.x.windows-amd64.msi
+```
+2. Install Go
 
-Default path:
+Installer steps:
+
+Next
+
+Accept License
+
+Default Path:
+```
 C:\Program Files\Go
+```
 
-Verify installation:
+Install
 
+Finish
+
+3. Verify Installation
+```
 go version
+```
 
+Expected:
+```
+go version go1.xx.x windows/amd64
+```
+4. Check PATH
 
-Ensure PATH contains:
+Ensure this is added:
+```
 C:\Program Files\Go\bin
-
-GOPATH (default):
-C:\Users\<YourName>\go
-
-GOROOT:
-C:\Program Files\Go
-
+```
+5. Important Paths
+```
+GOROOT = C:\Program Files\Go
+GOPATH = C:\Users\<YourName>\go
+```
 🍏 macOS Installation
+1. Download macOS Installer
+```
+https://go.dev/dl
+```
 
-Download .pkg installer from https://go.dev/dl
+Download:
+```
+go1.xx.x.darwin-amd64.pkg
+```
+2. Install
 
 Open → Continue → Install
 
-Verify Go installation:
-
+3. Verify
 go version
 
-
-Add PATH if needed:
-
+4. Add PATH (if required)
+```
 export PATH=$PATH:/usr/local/go/bin
-
-
-GOPATH:
-/Users/<yourname>/go
-
-GOROOT:
-/usr/local/go
-
+source ~/.zshrc
+```
+6. Important Paths
+```
+GOROOT = /usr/local/go
+GOPATH = /Users/<yourname>/go
+```
 🐧 Linux Installation (Ubuntu / Debian / Kali)
-
-Download tar.gz file:
-
+1. Download TAR
+```
 wget https://go.dev/dl/go1.xx.x.linux-amd64.tar.gz
-
-
-Remove old version:
-
+```
+3. Remove Old Version
+```
 sudo rm -rf /usr/local/go
-
-
-Extract new Go:
-
+```
+5. Extract New Version
+```
 sudo tar -C /usr/local -xzf go1.xx.x.linux-amd64.tar.gz
-
-
-Add to PATH:
-
+```
+7. Add Go to PATH
+```
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
 source ~/.bashrc
-
-
-Verify:
-
+```
+9. Verify
 go version
 
-
-GOPATH:
-/home/<username>/go
-
-GOROOT:
-/usr/local/go
-
+10. Important Paths
+```
+GOROOT = /usr/local/go
+GOPATH = /home/<username>/go
+```
 ## 🟩 Ready to Begin?
 
 This marks the official start of your Go learning journey.  
